@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/add', function () {
+    return view('第一个人开发的模块');
+});
